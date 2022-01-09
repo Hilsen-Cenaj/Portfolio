@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a820783c.css",
+    "main.js": "/portfolio/static/js/main.04ce1b4b.js",
+    "static/media/me.jpg": "/portfolio/static/media/me.57b488182c813d723142.jpg",
+    "static/media/Comfortaa-Regular.ttf": "/portfolio/static/media/Comfortaa-Regular.99567c98d6afc8602fd7.ttf",
+    "static/media/main.jpg": "/portfolio/static/media/main.554da0592a25dc467767.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.a820783c.css.map": "/portfolio/static/css/main.a820783c.css.map",
+    "main.04ce1b4b.js.map": "/portfolio/static/js/main.04ce1b4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a820783c.css",
+    "static/js/main.04ce1b4b.js"
+  ]
+}
