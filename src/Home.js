@@ -1,14 +1,13 @@
 import React from "react";
+import CopyRight from "./CopyRight";
 import MainImg from "./images/main.jpg";
 import MeImg from "./images/me.jpg";
-import CrImg from "./images/cr-icon.png";
 
 const Home = () => {
   return (
-    <div>
-      <div className="header">
-        {/* <div className="home-img"></div> */}
-        <img src={MainImg} className="home-img" alt="main-image" />
+    <>
+      <header>
+        <img src={MainImg} className="home-img" alt="main" />
 
         <div className="home-container">
           <h1>Hilsen Cenaj</h1>
@@ -27,9 +26,9 @@ const Home = () => {
             More
           </button>
         </div>
-      </div>
+      </header>
 
-      <div className="main">
+      <main>
         <table>
           <tr>
             <td>
@@ -46,7 +45,7 @@ const Home = () => {
                 src={MeImg}
                 width="200"
                 height="270"
-                alt="Personal image"
+                alt="Personal"
               />
             </th>
             <td>
@@ -59,17 +58,13 @@ const Home = () => {
             </td>
           </tr>
         </table>
-      </div>
+      </main>
 
       <hr />
-      <div className="footer">
-        <p>
-          Copyright
-          <img src={CrImg} alt="copyright-icon" width="15" height="15" /> 2020 -
-          Hilsen Cenaj
-        </p>
-      </div>
-    </div>
+      <footer>
+        <CopyRight />
+      </footer>
+    </>
   );
 };
 
