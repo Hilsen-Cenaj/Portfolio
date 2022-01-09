@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: myFont;
+  scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: myFont;
+    src:url("Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
