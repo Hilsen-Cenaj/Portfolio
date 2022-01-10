@@ -8,6 +8,7 @@ const Projects = ({ projects }) => {
       <section>
         <div className="title">
           <h2>Projects</h2>
+          <h3>Some of my work in the University</h3>
           <div className="underline"></div>
         </div>
         <div>
@@ -15,12 +16,11 @@ const Projects = ({ projects }) => {
             return <Project key={project.id} {...project} />;
           })}
         </div>
-
-        <hr />
-        <footer>
-          <CopyRight />
-        </footer>
       </section>
+      <hr />
+      <footer>
+        <CopyRight />
+      </footer>
     </div>
   );
 };

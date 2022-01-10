@@ -42,6 +42,8 @@
 body {
   /* margin: 0; */
   /* height: 100%; */
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
   line-height: 1.5;
   font-family: myFont;
   scroll-behavior: smooth;
@@ -65,7 +67,9 @@ li {
 
 table {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
+  border-radius: var(--radius);
+  color: var(--clr-grey-1);
 }
 
 td {
@@ -110,6 +114,10 @@ td {
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
+}
+.home-container h3 {
+  color: rgb(74, 137, 255);
+  text-shadow: 2px 2px white;
 }
 
 /* Button "More" style in Home page */
@@ -166,6 +174,11 @@ td {
     width: 95vw;
   }
 }
+/* 
+===============
+Projects Style
+===============
+*/
 .main {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -173,8 +186,8 @@ td {
 }
 .title {
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
 }
 .underline {
   width: 6rem;
@@ -211,7 +224,7 @@ td {
   padding-left: 0.25rem;
 }
 .single-project footer {
-  padding: 0.5rem 2rem;
+  padding: 0rem 2rem;
 }
 .project-description {
   display: flex;
@@ -222,32 +235,55 @@ td {
 .project-description h4 {
   margin-bottom: 0;
 }
-
-/* .item {
+/* 
+==========
+Form Style
+==========
+*/
+.form {
+  text-align: center;
   background: var(--clr-white);
-  display: flex;
-  justify-content: space-between;
   max-width: var(--fixed-width);
-  margin: 2rem auto;
-  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 1rem 2rem;
   border-radius: var(--radius);
 }
-.item a {
-  background: transparent;
+.form input {
+  background: var(--clr-grey-10);
   border-color: transparent;
-  color: var(--clr-primary-5);
+  border-radius: var(--radius);
+  padding: 0.25rem 0.5rem;
+}
+.form textarea {
+  background: var(--clr-grey-10);
+  border-color: transparent;
+  border-radius: var(--radius);
+  padding: 0.25rem 0.5rem;
+}
+.form-control {
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+.form button {
+  display: inline-block;
+  background-color: var(--clr-white);
+  color: rgb(74, 137, 255);
+  border: 2px solid rgb(74, 137, 255);
+  border-radius: 5px;
+  margin-top: 1rem;
   letter-spacing: var(--spacing);
+  transition-duration: 0.4s;
   cursor: pointer;
+  padding: 8px 17px;
+  font-size: 15px;
 }
-.item {
-  padding: 1rem 2rem;
+.form button:hover {
+  background-color: rgb(74, 137, 255);
+  color: white;
 }
-.item h4 {
-  margin-bottom: 0;
-}
-.item p {
-  margin-bottom: 0;
-} */
 
 header {
   grid-area: header;

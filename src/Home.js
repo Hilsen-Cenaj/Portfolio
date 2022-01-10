@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home-container">
           <h1>Hilsen Cenaj</h1>
           <h2>Welcome to my Portfolio</h2>
-          <h2 id="soft-eng">Software Engineering</h2>
+          <h3>Software Engineering</h3>
 
           <button
             className="more-btn"
